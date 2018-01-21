@@ -61,6 +61,8 @@ public class Klient {
                             antPersOk=false;
                         }
                     }while (!antPersOk);
+                    
+                    //Dette er teit!!!!
 
                     //TIDSPUNKT
                     long til=0;
