@@ -62,7 +62,6 @@ public class Klient {
                         }
                     }while (!antPersOk);
 
-                    
                     //TIDSPUNKT
                     long til=0;
                     long fra=0;

@@ -54,11 +54,11 @@ public class Rom {
     }
 
     public String toString(){
-        /*String utskrift = "";
+        String utskrift = "Romnr: "+getRomnr()+"\nRomstørrelse: "+getRomstorrelse()+"\n";
         for (int i = 0; i < res.size(); i++) {
-            utskrift+=;
-        }*/
-        return "Romnr: "+getRomnr()+"\nRomstørrelse: "+getRomstorrelse()+ "\n-----------------"+"\n";
+            utskrift+=res.get(i).toString()+"\n-----------------";
+        }
+        return utskrift;
     }
 
     public static void main(String[] args) {
@@ -84,8 +84,6 @@ public class Rom {
         }
         System.out.println("Test 1 vellykket");
         //Test 1    -   Vellykket
-
-
     }
 }
 
